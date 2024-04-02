@@ -23,7 +23,7 @@ const Navbar = () => {
     <img className="mt-2 h-[5vh] items-center max-sm:h-[25px] max-sm:mt-[13px] max-sm:pr-2" src={logo} alt="logo" />
     </div>
     <div className="search mt-2 flex ">
-        <input className='rounded-l-2xl w-[90vh] h-[80%] max-sm:w-[70%] max-sm:h-[80%]'></input>
+        <input className='rounded-l-2xl w-[90vh] h-[80%] max-sm:w-[70%] max-sm:h-[80%] pl-3' placeholder='Search'></input>
         <img className='bg-green-400 w-[7vh] h-[80%] rounded-r-2xl' src={search} alt="search" />
     </div>
     <div className="info flex w-auto h-auto  gap-2 max-sm:mt-0 max-sm:h-[80%] ">
